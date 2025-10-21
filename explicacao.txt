@@ -1,0 +1,20 @@
+Estrutura - Semana 1
+
+Arquivos:
+- index.html : Página HTML principal que referencia style.css e app.js
+- style.css  : Estilos básicos para a página
+- app.js     : Script de interação (exemplo de DOMContentLoaded e handler de botão)
+- poo.js     : Exemplo simples de Programação Orientada a Objetos em JavaScript
+- explicacao.txt : Este arquivo, explicando a estrutura e como executar
+- .gitignore : Arquivos e pastas ignoradas pelo Git
+- assets/    : Pasta para imagens, ícones e recursos estáticos
+
+Como testar rapidamente:
+1) Abrir `index.html` no navegador (duplo-clique ou arraste para o browser).
+2) Abrir o console do desenvolvedor (F12) para ver logs do `app.js` e `poo.js` (se importado).
+3) Para executar `poo.js` via Node (opcional):
+   - Abra um terminal na pasta do projeto e execute `node poo.js`.
+
+Observações:
+- `poo.js` foi escrito para rodar tanto no browser (se incluído via <script>) quanto em Node.js.
+- Posso adicionar um `README.md` com instruções mais detalhadas e transformar isso em um pequeno site estático se desejar.
